@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E98D152E-B6FA-3D7D-14F1-85E482E8149E" mainViewID="0B284D00-F68B-4BBF-D1F0-4A8305608B50">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:31 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>modelo_para_exportar.sql</fileName>
+<pathName>D:\1 - Facul\2º ano\2 - Global\BD</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

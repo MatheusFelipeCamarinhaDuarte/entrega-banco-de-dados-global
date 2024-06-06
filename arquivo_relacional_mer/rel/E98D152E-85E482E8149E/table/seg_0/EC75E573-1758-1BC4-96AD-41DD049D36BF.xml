@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC75E573-1758-1BC4-96AD-41DD049D36BF" name="tb_bp_reciclagem">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>AF28EC0A-9031-A537-8DEE-FA0C934B412D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reciclagem" id="40831CDA-9780-CE0E-3C50-67D2358FFF3C">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>A8748E3A-09DF-8E66-D2C3-B16EB55C04BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="358E31E6-80B2-210F-9525-D7616ED325FA">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>E24E5FDE-C1C0-126B-E70B-D785D39369A1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE0D891F-CFC5-A13A-EC21-C6598EAED602" referredColumn="02F9CE5C-DF13-057B-8D08-CCCB530782AA"/>
+</associations>
+</Column>
+<Column name="validado" id="AC7C5D02-7468-778E-6B83-89682F549B75">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>75F0CAAB-ACD3-992F-9137-A1DE76B6D938</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>391DEB65-BDDE-CF06-3EED-066A2BA3F7DB</domain>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pontos" id="6E1693A2-6ACB-4DFB-D80A-3B44FA7CE57B">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>E1A6A181-DEA2-B366-DC9D-744C400C56C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="F357B620-391D-0999-5DBA-0B564EDB4CB6">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>33FF59A5-4C37-F4CD-B6D7-146892B09C89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00C76568-4CB0-F04A-C8CF-DC7F49DDCC2A" referredColumn="36361081-0FBD-3352-1886-4A19E5561B1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73BC43CF-42BC-C461-0496-89B68808840A" name="PK_TB_BP_RECICLAGEM_ID">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>4B81154B-E0CF-A9BD-8624-96D3DE2A1EFC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40831CDA-9780-CE0E-3C50-67D2358FFF3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A95695BC-941F-661A-E169-1E9D81500754" name="UK_TB_BP_RECICLAGEM_FOTO">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>962F0489-DE9D-42E6-C062-F2299C16EAF5</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358E31E6-80B2-210F-9525-D7616ED325FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250DB23D-56E0-E307-3C25-CE394BCC5F7E" name="FK_BP_RECICLAGEM_FOTO">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358E31E6-80B2-210F-9525-D7616ED325FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F89D404-B534-176C-7F61-66AA86BF83F3" name="FK_BP_RECICLAGEM_USUARIO">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F357B620-391D-0999-5DBA-0B564EDB4CB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

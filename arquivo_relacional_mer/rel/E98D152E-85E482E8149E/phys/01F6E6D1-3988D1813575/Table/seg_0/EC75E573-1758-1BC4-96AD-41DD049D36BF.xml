@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="tb_bp_reciclagem" directorySegmentName="seg_0" id="EC75E573-1758-1BC4-96AD-41DD049D36BF">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="foto" id="358E31E6-80B2-210F-9525-D7616ED325FA">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_reciclagem" id="40831CDA-9780-CE0E-3C50-67D2358FFF3C">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pontos" id="6E1693A2-6ACB-4DFB-D80A-3B44FA7CE57B">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="validado" id="AC7C5D02-7468-778E-6B83-89682F549B75">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="usuario" id="F357B620-391D-0999-5DBA-0B564EDB4CB6">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BP_RECICLAGEM_FOTO" id="250DB23D-56E0-E307-3C25-CE394BCC5F7E">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_BP_RECICLAGEM_USUARIO" id="3F89D404-B534-176C-7F61-66AA86BF83F3">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TB_BP_RECICLAGEM_ID" id="73BC43CF-42BC-C461-0496-89B68808840A">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK_TB_BP_RECICLAGEM_FOTO" id="A95695BC-941F-661A-E169-1E9D81500754">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

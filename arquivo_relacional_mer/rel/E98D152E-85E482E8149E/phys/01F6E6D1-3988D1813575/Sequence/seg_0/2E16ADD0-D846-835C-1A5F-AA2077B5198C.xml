@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="sq_bp_reciclagem" directorySegmentName="seg_0" id="2E16ADD0-D846-835C-1A5F-AA2077B5198C">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:44 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+</SequenceOraclev10g>

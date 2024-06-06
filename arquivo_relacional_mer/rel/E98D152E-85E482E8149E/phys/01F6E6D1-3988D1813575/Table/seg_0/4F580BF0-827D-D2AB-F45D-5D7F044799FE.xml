@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="tb_bp_log_erro" directorySegmentName="seg_0" id="4F580BF0-827D-D2AB-F45D-5D7F044799FE">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_erro" id="0359740F-EABD-70FF-431B-1F155651E3F1">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="procedure_name" id="1188C78F-B10F-019C-8C16-E6036FE0F6FB">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="username" id="A2FB464E-DF9E-4E96-4A10-372A73D4F246">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="error_code" id="C25AA4C9-C4C5-683F-7321-B1987C86454A">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="error_date" id="CF481C35-F8DC-9B45-20A9-CA37694CF7D5">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TB_BP_LOG_ERRO_ID" id="0970AECE-B1EC-7D1C-DD2F-BBFCE67EE78E">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

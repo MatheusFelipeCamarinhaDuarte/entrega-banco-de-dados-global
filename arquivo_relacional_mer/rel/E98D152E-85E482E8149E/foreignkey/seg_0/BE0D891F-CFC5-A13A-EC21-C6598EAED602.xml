@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE0D891F-CFC5-A13A-EC21-C6598EAED602" containerWithKeyObject="EC75E573-1758-1BC4-96AD-41DD049D36BF" localFKIndex="250DB23D-56E0-E307-3C25-CE394BCC5F7E" name="FK_BP_RECICLAGEM_FOTO">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>7217E2AD-75E0-FC5C-B1F5-D4ACDFAC4BDF</importedID>
+<referredTableLongName>tb_bp_foto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D645833A-28A1-F399-5A79-CC1997D036B7</referredTableID>
+<keyObject>4CD67011-9A58-F1DE-033E-F2400A01557A</keyObject>
+<referredKeyID>4CD67011-9A58-F1DE-033E-F2400A01557A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_foto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

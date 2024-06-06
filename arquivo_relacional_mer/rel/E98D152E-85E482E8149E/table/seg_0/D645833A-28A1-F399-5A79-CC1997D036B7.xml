@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D645833A-28A1-F399-5A79-CC1997D036B7" name="tb_bp_foto">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>B41E0021-4B7E-6508-7F3A-4C4CF534B9EA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_foto" id="02F9CE5C-DF13-057B-8D08-CCCB530782AA">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>3DDEF0D7-173B-5406-6470-FC9F570008D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="src" id="5C2CA0F7-DDF3-84A0-C292-E1287C9320F3">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>AACD2F5A-C591-C2C9-5451-D2830CD4AF43</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>15A6F8A3-AC17-E567-3A28-647F4ADFA54F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CD67011-9A58-F1DE-033E-F2400A01557A" name="PK_TB_BP_FOTO_ID">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>90780A5B-0D0E-B852-2ED4-2740B2FE4B01</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02F9CE5C-DF13-057B-8D08-CCCB530782AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

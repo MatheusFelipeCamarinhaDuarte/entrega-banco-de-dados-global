@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F580BF0-827D-D2AB-F45D-5D7F044799FE" name="tb_bp_log_erro">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>1A3C84A0-7770-59F6-9B8A-72EE3610D155</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_erro" id="0359740F-EABD-70FF-431B-1F155651E3F1">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>91C77EC7-94E4-CFFB-001E-17F7343AF64C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>2378F7A7-8035-A89C-E86E-E0FD2E405524</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="procedure_name" id="1188C78F-B10F-019C-8C16-E6036FE0F6FB">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>83051164-1130-5335-8FF4-8961F07C6664</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB8B7BF9-A078-3E01-5136-456BC4D7A36F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="A2FB464E-DF9E-4E96-4A10-372A73D4F246">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>62130085-A590-B4C7-2E2D-38319C50BFC8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB8B7BF9-A078-3E01-5136-456BC4D7A36F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="error_date" id="CF481C35-F8DC-9B45-20A9-CA37694CF7D5">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>49F9B2C9-AD55-3CAD-95C3-CC04B7782A9D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>013712BF-50AD-4AC9-DA76-9812FC1A1ACD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="error_code" id="C25AA4C9-C4C5-683F-7321-B1987C86454A">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>6101066C-A982-DA09-009B-A1C2041B5E87</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EE568AF0-2C9C-2B8D-352E-13530A2D2C58</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0970AECE-B1EC-7D1C-DD2F-BBFCE67EE78E" name="PK_TB_BP_LOG_ERRO_ID">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>1E1142F1-D551-6F8D-8C96-E688111C39E0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0359740F-EABD-70FF-431B-1F155651E3F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

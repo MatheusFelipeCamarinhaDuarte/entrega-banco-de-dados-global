@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="arquivo_relacional_mer" id="38F5C5E8-B756-1CB0-FA40-DC25B92F1A03" version="3.5">
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 12:38:22 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>38F5C5E8-B756-1CB0-FA40-DC25B92F1A03</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1A4E7564-3B63-74CE-E745-11B5E004DDA5">
+<designStoragePath>D:\modelo_para_exportar</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E55E3CED-0CD3-DEC2-1057-0B07E28EA446">
+<designStoragePath>D:\modelo_para_exportar</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

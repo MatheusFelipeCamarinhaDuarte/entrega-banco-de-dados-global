@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00C76568-4CB0-F04A-C8CF-DC7F49DDCC2A" containerWithKeyObject="EC75E573-1758-1BC4-96AD-41DD049D36BF" localFKIndex="3F89D404-B534-176C-7F61-66AA86BF83F3" name="FK_BP_RECICLAGEM_USUARIO">
+<sourceDDLFile>modelo_para_exportar.sql</sourceDDLFile>
+<createdBy>Matheus</createdBy>
+<createdTime>2024-06-06 15:28:48 UTC</createdTime>
+<ownerDesignName>arquivo_relacional_mer</ownerDesignName>
+<importedID>820F46EC-1EA6-6FA4-2765-4FFEB34218DC</importedID>
+<referredTableLongName>tb_bp_usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A41ADE4-EF6B-8D9A-E4B6-36D1C9A081CD</referredTableID>
+<keyObject>AB0BE638-CE7D-FB4A-DC25-511F300837A3</keyObject>
+<referredKeyID>AB0BE638-CE7D-FB4A-DC25-511F300837A3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
